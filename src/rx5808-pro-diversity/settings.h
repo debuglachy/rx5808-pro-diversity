@@ -36,9 +36,9 @@ SOFTWARE.
 // =============================================================================
 
 // SSH1106 needs https://github.com/badzz/Adafruit_SH1106 installed.
-//#define SH1106
+// #define SH1106
 
-//#define TVOUT_SCREENS
+// #define TVOUT_SCREENS
 #define OLED_128x64_ADAFRUIT_SCREENS
 
 // Enable this if your screen is upside down.
@@ -70,7 +70,7 @@ SOFTWARE.
 //
 // =============================================================================
 
-#define USE_DIVERSITY
+// #define USE_DIVERSITY
 
 // Enable this to switch receivers much faster. This uses the port registers
 // to switch rather than the Arduino helper functions.
